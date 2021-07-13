@@ -28,3 +28,4 @@ You can send me a mail at the following. I read all my mails that does not
 arrive in the spam folder, but I answer according to my motivation…
 
 => mailto://killruana+contact@slaanesh.org My email address
+=> /files/killruana_at_slaanesh_dot_org_0x70F6C5F586C49387_pub.asc My PGP ke My PGP key
