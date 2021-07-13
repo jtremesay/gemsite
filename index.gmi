@@ -18,9 +18,8 @@ There are always these 2 GMail addresses ,'cause it's hard to update
 everywhere… But maybe one day!
 
 => /blog/ My blog
-=> /projects/ Some of my projects
+=> /projects.gmi Some of my projects
 => /cv.gmi CV
-
 
 ## Contact
 

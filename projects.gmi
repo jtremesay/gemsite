@@ -1,0 +1,7 @@
+# Projects
+
+## kFPGA
+
+An open hardware FPGA architecture
+
+=> https://git.slaanesh.org/kfpga Repository
