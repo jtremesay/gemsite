@@ -17,7 +17,7 @@ accounts. This book is terrifying! I think that everybody should read it.
 There are always these 2 GMail addresses ,'cause it's hard to update
 everywhere… But maybe one day!
 
-=> /blog/ My blog
+=> /gemlog/ My gemlog
 => /projects.gmi Some of my projects
 => /cv.gmi CV
 
