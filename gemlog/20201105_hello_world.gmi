@@ -4,4 +4,7 @@ New blog. The previously one broke, I did not find the motivation to fix it. The
 
 I will try to import the articles from the previous blog.
 
+EDIT 2021-07-21: Nope, sorry, all old posts are losts :-/
+
+
 => https://gohugo.io Hugo static site generator
