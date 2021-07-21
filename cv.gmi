@@ -20,25 +20,21 @@ Software engineer based at Montpellier, France.
 * C++ - 98 to 14
 * Qt
 
-My main skiils are in these languages. Through my career, I have learn many
-technologies like PHP, 2010-jquery Javascript, some pieces of CSS,
-Objective-C, Java, Android or iOS. But my knownledge is now out of date.
+My main skiils are in these languages. Through my career, I have learn many technologies like PHP, 2010-jquery Javascript, some pieces of CSS, Objective-C, Java, Android or iOS. But my knownledge is now out of date.
 
 ### OS
 
 * Linux - Arch Linux / Debian / Centos / Ubuntu
 * macOS
 
-I mainly use Linux for my personal computers and server. I have basic
-knowledge of OpenBSD. I can work on macOS. I don't want to work with Windows.
+I mainly use Linux for my personal computers and server. I have basic knowledge of OpenBSD. I can work on macOS. I don't want to work with Windows.
 
 ### IDE
 
 * VSCode
 * QtCreator
 
-My first to go IDE is VSCode. I also use a lot nvim. I like QtCreator for
-working on C++/Qt projects.
+My first to go IDE is VSCode. I also use a lot nvim. I like QtCreator for working on C++/Qt projects.
 
 
 ### Tools
@@ -54,8 +50,7 @@ Yup, I'm a developper. I know the basic tools…
 * Jenkins
 * GitHub Actions
 
-I became the so called Jenkins guru because someone had to. I am currently
-working with GitHub Actions.
+I became the so called Jenkins guru because someone had to. I am currently working with GitHub Actions.
 
 ### DevOps/SysAdmin
 
@@ -64,10 +59,7 @@ working with GitHub Actions.
 * Docker
 * Terraform
 
-I administrate my own Linux servers (projects hosting, personal storage,
-backups, …). In my current job, I manage a AWS hosted cloud infrastructure
-running some Docker containers with Terraform for propulsing an IOT and data-
-analysis platform.
+I administrate my own Linux servers (projects hosting, personal storage, backups, …). In my current job, I manage a AWS hosted cloud infrastructure running some Docker containers with Terraform for propulsing an IOT and data-analysis platform.
 
 ## Education
 
@@ -84,15 +76,11 @@ analysis platform.
 
 ### kFPGA / 2019 - present (kind of)
 
-Personal project, I am developing an open-hardware FPGA architecture.
-Long story short, verilog, python, tcl, cocotb, synthesis, yosys, qflow,
-OpenROAD, Xilinx Vivado.
+Personal project, I am developing an open-hardware FPGA architecture. Long story short, verilog, python, tcl, cocotb, synthesis, yosys, qflow, OpenROAD, Xilinx Vivado.
 
 ### R&D Software Engineer / Menta / may 2014 - dec 2018
 
-I worked at Menta as a software engineer in the R&D Software team. I was in
-charge of the logic synthesis in the Origami Programmer software. I also
-worked closely with the Hardware team by providing then tools and support.
+I worked at Menta as a software engineer in the R&D Software team. I was in charge of the logic synthesis in the Origami Programmer software. I also worked closely with the Hardware team by providing then tools and support.
 
 * development of Origami Programmer & Designer (C++/Qt, Verific)
 * development of a tool for automatizing the physical implementation of soft IP FPGA cores to multiples standard cells library (TSMC, Global Foundry, ST, ARM) based on a Synopsys flow (Design Compiler, ICC2, PrimeTime, StarRC, Mentor Graphics Calibre, …)
