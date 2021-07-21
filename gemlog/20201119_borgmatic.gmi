@@ -1,0 +1,83 @@
+# Borgmatic
+
+Borgmatic is a wrapper for borg. Remote differential encrypted backup made easy!
+
+=> https://torsion.org/borgmatic/ Borgmatic
+=> https://www.borgbackup.org/ Borg
+
+## Client side
+
+Install borgmatic:
+
+```
+paru -S borgmatic
+```
+
+Configuration:
+
+```
+sudo generate-borgmatic-config
+sudo nvim /etc/borgmatic/config.yaml
+```
+
+Minimale configuration example:
+
+```
+location:
+    source_directories:
+        - /home
+        - /etc
+    repositories:
+        - backup@backup.slaanesh.org:/home/backup/repos/edemaruh
+    patterns:
+        - '- /home/*/.cache'
+storage:
+    encryption_passphrase: "azerty"
+retention:
+    keep_daily: 7
+    keep_weekly: 4
+    keep_monthly: 1
+    keep_yearly: 1
+```
+
+Create a ssh key for connecting to the backup server:
+
+```
+sudo ssh-keygen
+```
+
+## Server side
+
+Install borg and create a dedicated user account:
+
+```
+paru -S borg
+sudo useradd -m backup
+```
+
+Restrict autorized commands and paths:
+
+```shell
+$ sudo cat /home/backup/.ssh/autorized_keys
+command="cd /home/backup/repos/edemaruh; borg serve --restrict-to-path /home/backup/repos/edemaruh",no-port-forwarding,no-X11-forwarding,no-pty,no-agent-forwarding,no-user-rc ssh-rsa CONTENT OF THE PUBLIC KEY GENERATED ON THE CLIENT root@edemaruh.slaanesh.org
+```
+
+## Test and run (client side)
+
+Create the repository:
+
+```
+sudo borgmatic init --encryption repokey
+```
+
+Dry run:
+
+```
+sudo borgmatic -n
+```
+
+If it is all ok, enable the timer service:
+
+```
+sudo systemctl enable borgmatic.timer
+```

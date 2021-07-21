@@ -2,5 +2,6 @@
 
 Welcome to my gemlog!
 
+=> 20201119_borgmatic.gmi 2020-11-19 Borgmatic
 => 20201108_bread_dough_recipe.gmi 2020-11-08 Bread dough recipe
 => 20201105_hello_world.gmi 2020-11-05 hello, world
