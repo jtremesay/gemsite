@@ -1,0 +1,7 @@
+# hello, world
+
+New blog. The previously one broke, I did not find the motivation to fix it. The new blog use the static site generator Hugo.
+
+I will try to import the articles from the previous blog.
+
+=> https://gohugo.io Hugo static site generator

@@ -2,4 +2,5 @@
 
 Welcome to my gemlog!
 
-=> 20201108_bread_dough_recipe.gmi Bread dough recipe
+=> 20201108_bread_dough_recipe.gmi 2020-11-08 Bread dough recipe
+=> 20201105_hello_world.gmi 2020-11-05 hello, world
